@@ -22,6 +22,7 @@ export default {
         lightGreen: "#004225",
         hazel: "#FBFBFB",
         gray: "#F5EDED",
+        skyblue: "#80C4E9",
 
         orange: "hsl(24, 74%, 58%)",
         yellow: "hsl(51, 95%, 54%)",
