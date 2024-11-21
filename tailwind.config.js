@@ -23,6 +23,7 @@ export default {
         hazel: "#FBFBFB",
         gray: "#F5EDED",
         skyblue: "#80C4E9",
+        lineColor: "#edf2f4",
 
         orange: "hsl(24, 74%, 58%)",
         yellow: "hsl(51, 95%, 54%)",
@@ -31,6 +32,8 @@ export default {
         brightRed: "#AF1740",
         offBlack: "#4A4947",
         lightPurple: "#522258",
+        lightBlue: "#ade8f4",
+        borderColor: "#adb5bd",
       },
       boxShadow: {
         "3xl": "-5px 5px 10px rgba(0, 0, 0, 0.5);",
