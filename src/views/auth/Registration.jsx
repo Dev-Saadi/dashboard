@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { CgGoogle } from "react-icons/cg";
 import { FaFacebookF } from "react-icons/fa";
+import Img from "../../assets/Images/Img";
+import Hw from "../../assets/Images/Hw.svg";
+
 const Registration = () => {
   let [regInputvalue, setRegInputvalue] = useState({
     name: "",
@@ -28,7 +31,7 @@ const Registration = () => {
         <div className="bg-offwhite p-10 rounded-lg">
           <div className="border-b-2 border-lineColor mb-3">
             <div>
-              <img className="w-52" src="src/assets/Images/Hw.svg" alt="" />
+              <Img width={208} src={Hw} />
             </div>
           </div>
           <div className="border-b-2 border-lineColor">
