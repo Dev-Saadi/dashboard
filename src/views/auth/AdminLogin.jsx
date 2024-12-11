@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Hw from "../../assets/Images/Hw.svg";
 import Img from "../../assets/Images/Img";
+import { useDispatch } from "react-redux";
+import { admin_login } from "../../store/reducers/authReducer";
 
 const AdminLogin = () => {
+  let dispatch = useDispatch();
+
   let [logInputvalue, setlogInputvalue] = useState({
     email: "",
     password: "",
@@ -20,6 +24,7 @@ const AdminLogin = () => {
   let handleFormSubmit = (event) => {
     event.preventDefault();
     console.log(logInputvalue);
+    dispatch(admin_login(logInputvalue));
   };
   return (
     <div className="min-w-screen min-h-screen flex justify-center items-center bg-gradient-to-t from-magenta from-10% to-skyblue to-95%">
